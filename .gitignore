@@ -1,0 +1,36 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+db.sqlite3
+*.log
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+
+# Env / secrets
+.env
+.env.local
+.env*.local
+
+# OS
+.DS_Store
+
+# --- secrets and local data (never commit) ---
+.env
+.env.*
+*.env
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.pem
+*.key
+*.keystore
+*.jks
+google-services.json
+GoogleService-Info.plist
+.vercel/
+node_modules/
